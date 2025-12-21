@@ -1,4 +1,4 @@
-package bitmanipulation;
+package dsa.bitmanipulation;
 
 import java.util.Scanner;
 

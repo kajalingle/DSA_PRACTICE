@@ -1,8 +1,8 @@
-package bitmanipulation;
+package dsa.bitmanipulation;
 
 import java.util.Scanner;
 
-public class updateBit {
+public class UpdateBit {
     static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter Number :");

@@ -1,16 +1,15 @@
-package BitManipulation;
+package bitmanipulation;
 
 import java.util.Scanner;
 
-public class SetBit {
+public class ClearBit {
     static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter Number :");
         int n=sc.nextInt();
         System.out.println("Enter Position Of bit :");
         int pos=sc.nextInt();
-        int bitMask=1<<pos;
-        int ans=n|bitMask;
-        System.out.println(ans);
+        int bitMask=~(1<<pos);
+        System.out.println(bitMask&n);
     }
 }
